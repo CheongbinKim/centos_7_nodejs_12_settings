@@ -12,6 +12,10 @@ sudo yum install ./google-chrome-stable_current_x86_64.rpm
 
 npm install selenium-webdriver chrome chromedriver moment moment-timezone 
 
+sudo yum install epel-release -y
+sudo yum install nginx
+sudo vi /etc/nginx/nginx.conf
+
 
 
             # For more information on configuration, see:
