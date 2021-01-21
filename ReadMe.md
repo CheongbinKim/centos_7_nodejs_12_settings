@@ -117,3 +117,7 @@ sudo vi /etc/nginx/nginx.conf
             #    }
 
             }
+
+
+socket.io 사용시
+setsebool httpd_can_network_connect on
